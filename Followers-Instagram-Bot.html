@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Yosais Digital | Produk Digital</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="styles/categories_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/categories_responsive.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.5.0/css/intlTelInput.css">
+<link rel="stylesheet" type="text/css" href="styles/StyleArda.css">
+
+<meta name="description" content="ARS Template">
+<link rel="icon" type="image/x-icon" href="images/icons.png">
+<link rel="shortcut icon" href="images/icons.png" type="image/x-icon" />
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <style type="text/css">
+    
+        .product-lease {
+            margin-bottom: 20px;
+        }
+
+        .product-lease h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .lease-options {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .lease-options label {
+            margin-right: 10px;
+        }
+
+        .lease-box {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            margin-bottom: 10px;
+        }
+
+        .lease-badge {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25px;
+            height: 25px;
+            background-color: #fff;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 50%;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .lease-options input[type="radio"] {
+            display: none;
+        }
+
+        .lease-options input[type="radio"]:checked+.lease-box {
+            border-color: #4caf50;
+        }
+
+        #pilihan {
+            display: none;
+        }
+        .red_button.add_to_cart_button {
+  text-decoration: none;
+  color: white;
+  cursor: default;
+}
+
+
+        .lease-options input[type="radio"]:checked+.lease-box .lease-badge {
+            background-color: #000;
+            color: #4caf50;
+            box-shadow: 0 0 4px rgba(76, 175, 80, 0.5);
+        }
+
+        @media screen and (max-width: 768px) {
+            .lease-options {
+                justify-content: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="super_container">
+
+        <!-- Header -->
+
+        <header class="header trans_300">
+
+            <!-- Top Navigation -->
+
+            <div class="top_nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="top_nav_left">CheckOut With Whatsapp</div>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <div class="top_nav_right">
+                                <ul class="top_nav_menu">
+
+                                    <!-- Currency / Language / My Account -->
+                                    <!-- <li class="account">
+																									<a href="#">
+										Join Now !
+										<i class="fa fa-angle-down"></i>
+									</a>
+									<ul class="account_selection">
+									<li><a href="login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+									<li><a href="daftar.php"><i class="fa fa-user-plus" aria-hidden="true"></i>daftar</a></li>
+																		</ul>
+								</li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Navigation -->
+
+            <div class="main_nav_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-right">
+                            <div class="logo_container">
+                                <a href="index.html">Yosais <span>Digital</span></a>
+                            </div>
+                            <nav class="navbar">
+                                <ul class="navbar_menu">
+                                    <li><a href="index.php">home</a></li>
+                                </ul>
+                                <ul class="navbar_user">
+                                                                                                        </ul>
+                                <div class="hamburger_container">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        
+        
+        <!-- HAMBURGER MENU -->
+
+        <div class="fs_menu_overlay"></div>
+        <div class="hamburger_menu">
+            <div class="hamburger_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+            <div class="hamburger_menu_content text-right">
+                <ul class="menu_top_nav">
+                    <li class="menu_item has-children">
+                                                                                    <a href="#">
+                                    Join Now !
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="menu_selection">
+                                    <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Masuk</a>
+                                    </li>
+                                    <li><a href="daftar.html"><i class="fa fa-user-plus"
+                                                aria-hidden="true"></i>Daftar</a></li>
+                                                                    </ul>
+                    </li>
+                    <li class="menu_item"><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container single_product_container">
+            <div class="row">
+                <div class="col product_section clearfix"> 
+
+
+
+
+                    <!-- Breadcrumbs -->
+                    <br><br><br><br>
+                    <div class="breadcrumbs d-flex flex-row align-items-center">
+                        <ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="/Followers-Instagram.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Followers Instagram</a></li>
+						<li class="active"><a href="/"><i class="fa fa-angle-right" aria-hidden="true"></i>Bot</a></li>
+					</ul>
+                    </div>
+
+                </div>
+            </div>
+            
+            
+             <!-- GAMBAR -->
+             	<div class="product_image">
+             	<img src="images/instagram.png" alt="INSTAGRAM">
+                 </div>
+
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="single_product_pics">
+                        <div class="row">
+                            <div class="col-lg-9 image_col">
+                                <div class="single_product_image">
+                                    <div class="single_product_image_background"
+                                        style="background-image:url(images/errrrror.png)"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <br><br><br>
+                <!-- JUDUL -->                	
+                <div class="col-lg-5">
+                    <div class="product_details">
+                        <div class="product_details_title">
+                            <h2>FOLLOWERS INSTAGRAM</h2>
+                            <h4>BOT</h4>
+                            
+                             
+                            
+                            <p>Media sosial menjadi aplikasi yang banyak digunakan dan menjadi sangat penting pada era digital saat ini. Tidak hanya digunakan untuk kepentingan pribadi saja, media sosial juga banyak digunakan untuk kepentingan bisnis. Jumlah followers instagram terbukti efektif digunakan sebagai sarana mempromosikan bisnis dan perusahaan. Oleh sebab itu pilihlah jasa kebutuhan sosial media terbaik. Karena jasa followers instagram diperlukan untuk meningkatkan interaksi. Dengan Menggunakan jasa followers instagram, akun kamu akan mudah dipercaya dan akan lebih mudah lagi untuk mendapatkan engagement.<a
+                                    href="#description">..Selengkapnya</a></p>
+                        </div>
+                        <div class="product-lease">
+                        	
+                        
+                        
+                        <!-- 
+                        
+<h3>Pilih Type:</h3>
+<div class='ardaH-input-field'><select class='validate' id='tipeHexSpion' name='Hex Spion'>
+<option hidden='hidden' selected='selected' value='default'>TYPE FOLLOW</option>
+<option value='1'>Instagram BOT</option>
+<option value='2'>Instagram MIX</option>
+<option value='3'>Instagram INDO</option>
+<option value='3'>Instagram PERMANENT</option>
+</select></div>
+
+                         -->
+                        	
+
+
+
+												    <h3>Pilih Varian Produk:</h3>
+												    <div class="lease-options">
+												        												                <label>
+																				    <input type="radio" name="lease-duration" value="53" data-harga="5000">
+																				    <div class="lease-box">
+																				        <div class="lease-badge"><i class="fa fa-check"></i></div>
+																				        <span id="variasi">1000</span>
+																				    </div>
+																				</label>
+												                												                <label>
+																				    <input type="radio" name="lease-duration" value="54" data-harga="20000">
+																				    <div class="lease-box">
+																				        <div class="lease-badge"><i class="fa fa-check"></i></div>
+																				        <span id="variasi">5000</span>
+																				    </div>
+																				</label>
+												                												                <label>
+																				    <input type="radio" name="lease-duration" value="55" data-harga="30000">
+																				    <div class="lease-box">
+																				        <div class="lease-badge"><i class="fa fa-check"></i></div>
+																				        <span id="variasi">10000</span>
+																				    </div>
+																				</label>
+												                												                <label>
+																				    <input type="radio" name="lease-duration" value="56" data-harga="120000">
+																				    <div class="lease-box">
+																				        <div class="lease-badge"><i class="fa fa-check"></i></div>
+																				        <span id="variasi">50000</span>
+																				    </div>
+																				</label>
+												                												                
+												                												    </div>
+												</div>
+
+                        
+                          <div class="product_details_title">
+                          <h2 id="harga">Rp. </h2></div>
+                       
+                        <div class="product_price"></div>
+                        <div class="quantity d-flex flex-column flex-sm-row align-items-sm-center">
+                            
+                            
+                            <!-- <div class="product_favorite d-flex flex-column align-items-center justify-content-center"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Detail Pemesanan</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                                        <div class="modal-body">
+
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="single_product_pics">
+                                    <div class="row">
+                                        <!-- 						<div class="col-lg-9 image_col">
+							<div class="single_product_image">
+								<div class="single_product_image_background" style="background-image:url(image/produk/produkimage/v982-d3-04.png)"></div>
+							</div>
+						</div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="product_details">
+                                    <div class="product_details_title">
+                                        <h2>Views Instagram - Hemat+bonus</h2>
+                                        <h4 id="var">Varian :</h4>
+                                    </div>
+                                    <div class="product_price" id="price">Rp. </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <br><br>
+
+                        <form action="" method="post" enctype="multipart/form-data">
+                            <div>
+                                <input type="hidden" name="penjual" value="BangOost Digital">
+                                <input type="hidden" name="nproduk" value="Views Instagram">
+                                <input type="hidden" name="type" value="Hemat+bonus">
+                                	<div class="inputsArda">
+                                <input name="npembeli" id="wa_name" class="form_input input_email input_ph" type="text"
+                                    placeholder="Link Instagram" required="required" data-error="Valid email is required.">
+                                    </div>
+                                <input name="no_pembeli" id="wa_email" type="number" value="1" hidden>
+                                <input name="jumlah" id="jumlah" type="number"value="1" hidden>
+                                	<input name="type_product" id="type2" type="text"value="BOT" hidden>
+                                	<input name="nama_product" id="nama_product" type="text"value="Followers IG" hidden>
+                                <textarea style="opacity: 0;" name="alamat" id='wa_textarea' placeholder='Alamat Lengkap' hidden>1</textarea>
+                                <input type="hidden" id="totalsemua" name="total" value="">
+                                <input type="hidden" id="variannya" name="varian" value="">
+                                <input type="hidden" name="status" value="Proses">
+                            </div>
+                        <br><br>
+                            <input name="add" id="send_form" class="BuyButtonArda message_submit_btn trans_300"
+                                href="javascript:void" type="submit" title="Beli Lewat Whatsap"
+                                value="Beli Lewat Whatsapp"></input>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        Yosais Digital
+                    </div>       
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="col-lg-12">
+           <div class="product_details">
+              <div class="product_details_title">
+              	
+              
+        <!-- TESTING 
+        <div class="inputsArda">
+        <input name="npembeli" id="wa_name" class="form_input input_email input_ph" type="text"
+        placeholder="Nama Pembeli" required="required" data-error="Valid email is required.">     	
+        </div>
+        -->
+        	
+        <div class="quantity d-flex flex-column flex-sm-row align-items-sm-center">
+        <span>Penjual : <b>Yosais Digital</b></span>
+        </div>
+        
+        <!-- BUTTON BUY RAFIQIE      red_button -->
+        <button type="button" class="BuyButtonArda add_to_cart_button" data-toggle="modal" data-target=".bd-example-modal-lg" disabled>Beli Sekarang</button>
+        
+        <!-- BUTTON BUY ARDA
+         <button type="button" class="red_button BuyButtonArda" data-toggle="modal"
+                                data-target=".bd-example-modal-lg">Beli Sekarang</button>
+        -->
+        
+        
+        
+        </div>
+           </div>
+              </div>
+  
+        
+        
+     
+     
+   
+   
+   
+   
+   
+   
+   
+  
+    
+
+        
+        
+        
+        
+        
+        	<div class="product_price"></div>
+
+
+ <!-- Tabs -->
+        	
+
+        <div class="tabs_section_container">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="description" class="tabs_container">
+                            <ul
+                                class="tabs d-flex flex-sm-row flex-column align-items-left align-items-md-center justify-content-center">
+                                <li class="tab active" data-active-tab="tab_1"><span></span></li>
+                                <li class="tab" data-active-tab="tab_2"><span></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+
+                        <!-- Tab Description -->
+                        	<hr><br><br><br>
+                        <div id="tab_1" class="tab_container active">
+                            <div class="row">
+                                <div class="col-lg-5 desc_col">
+                                    <!-- <div class="tab_title"> -->
+                                    <!-- JUDUL STYLE -->
+                                	<div class="h2-h3-style">
+                                	<h2 style="text-align: left;">Description</h2>
+                                    </div>
+                                    <!-- </div> -->
+                                    Kenapa Harus Beli Follower Instagram di YosaisDigital?
+                                    <br><br>
+                                    Saat ini sudah banyak bisnis dan personal account yang puas menggunakan Jasa Kebutuhan sosial media YosaisDigital. Kami menyediakan layanan lain seperti : instagram like, followers IG, Followers TikTok Dan masih banyak lagi, dengan harga termurah dan tercepat pastinya. Banyak artis Indonesia, bisnis, dan online shop yang mempercayakan suntik followers, like, dan views kepada YosaisDigital. Karena dengan memiliki banyak like, views dan followers maka secara otomatis akan meningkatkan brand awareness dari produk dan client anda.
+                                    <br><br><br><br>
+                                    
+                                    <!-- JUDUL STYLE -->
+                                	<div class="h2-h3-style">
+                                	<h2 style="text-align: left;">Jenis Layanan</h2>
+                                    </div>
+                                    <div class="ardaList">
+                                	<ol class="style2">
+                                	<li>Bonus Pengisian 50-100% dari jumlah pembelian</li>
+                                    <li>Estimasi drop rate 0 - 30% (<b style="color:var(--linkB)">tergantung produk pembelian</b>)</li>
+                                    <li>Proses Cepat Hanya 5-30 menit dan maksimal 1 x 24 jam</li>
+                                    <li>Drop, Non drop, Refill dan no Refill berlaku di setiap type pembelian</li>
+                                    <li>Minim Order 50 dan Max 300.000 Followers</li>
+                                    </ol>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <br><br><br><br>
+                                    <div class="box warning"><b>Note :</b><br />Permanen dan bergaransi, apabila drop dari jumlah pembelian (bukan ketika di tambah bonus ya), garansi isi ulang kembali selama 1 tahun <em>tanpa biaya</em> tambahan</div>
+                                     
+                                    <br><br><br><br>
+                                    <!-- JUDUL STYLE -->
+                                	<div class="h2-h3-style">
+                                	<h2 style="text-align: left;">Cara Pembelian</h2>
+                                    </div>
+                                    <div class="post-body">
+                                    <p></p><ul class="tick1">
+                                    <li>Pilih Variant lalu Klik Beli Sekarang</li>
+                                    <li>Tulis Username IG Kirim Via Chat / Link di note pembelian</li>
+                                    <li>Buka Private IG saat Proses sedang berlangsung</li>
+                                    <li>Produk selalu tersedia dan promo di setiap minggunya<br></li>
+                                    </ul><p></p>
+                                    </div>
+                                    
+                                    <!--
+                                    <div class="note"><b>Note :</b><br />ISI KATA KATA LU YOSA NGENTOD
+                                    </div>
+                                    -->
+                                    	
+                               </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab Additional Info -->
+
+                        <div id="tab_2" class="tab_container">
+                            <div class="row">
+                                <div class="col additional_info_col">
+                                    <div class="tab_title additional_info_title">
+                                        
+                                    </div>
+                                    <!-- <p>COLOR:<span>Gold, Red</span></p>
+								<p>SIZE:<span>L,M,XL</span></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+
+    <!-- Benefit -->
+
+    <div class="benefit">
+        <div class="container">
+            <div class="row benefit_row">
+                <div class="col-lg-3 benefit_col">
+                    <div class="benefit_item d-flex flex-row align-items-center">
+                        <div class="benefit_icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
+                        <div class="benefit_content">
+                            <h6>tanpa biaya tambahan</h6>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 benefit_col">
+                    <div class="benefit_item d-flex flex-row align-items-center">
+                        <div class="benefit_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+                        <div class="benefit_content">
+                            <h6>pembayaran lengkap</h6>
+                            <p>The Internet Tend To Repeat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 benefit_col">
+                    <div class="benefit_item d-flex flex-row align-items-center">
+                        <div class="benefit_icon"><i class="fa fa-undo" aria-hidden="true"></i></div>
+                        <div class="benefit_content">
+                            <h6>garansi full</h6>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 benefit_col">
+                    <div class="benefit_item d-flex flex-row align-items-center">
+                        <div class="benefit_icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                        <div class="benefit_content">
+                            <h6>buka setiap hari</h6>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter -->
+
+    <div class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div
+                        class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
+                        <!-- <h4>Newsletter</h4>
+						<p>Subscribe to our newsletter and get 20% off your first purchase</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <form action="post">
+						<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
+							<input id="newsletter_email" type="email" placeholder="Your email" required="required" data-error="Valid email is required.">
+							<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">subscribe</button>
+						</div>
+					</form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- 					<div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
+						<ul class="footer_nav">
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+						</ul>
+					</div> -->
+                </div>
+                <div class="col-lg-6">
+                    <div
+                        class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+                        <ul>
+                            <!-- 							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_nav_container">
+                        <div class="cr">©2023 Yosais Digital - All Rights Reserverd.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+  
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="js/categories_custom.js"></script>
+<script src="js/validasiArda.js"></script>
+
+</body>
+</html>

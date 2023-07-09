@@ -1,0 +1,387 @@
+.class {
+  scroll-behavior: [ auto | smooth ];
+}
+/* SCROLL Back to Top Pure CSS by igniel.com */
+html {scroll-behavior:smooth;}
+.ignielToTop {
+width:35px; 
+height:35px; 
+position:fixed;
+bottom:20px; 
+right: 20px; 
+z-index:99; 
+cursor:pointer; 
+border-radius:100px; 
+box-shadow: 0 0 12px #25d7fb;
+transition:all .5s; 
+background:transparent url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+.ignielToTop:hover {background:#1d2129 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+/*BATAS*/
+
+
+
+
+/*DARK MODE*/
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+/*BATAS*/
+
+
+
+
+.button{
+display:inline-flex;
+align-items:center; 
+margin:10px 0;
+padding:12px 15px;
+outline:0;
+border:0; 
+border-radius:3px;
+box-shadow: 0 0 8px #25d7fb;
+line-height:20px; 
+color:#fff; 
+background:#25d7fb; 
+font-size:14px;
+font-family:Garamond, serif; 
+white-space:nowrap;
+overflow:hidden;
+max-width:320px} 
+.button.ln{color:inherit;background:transparent; border:1px solid #000} .button.ln:hover{border-color:var(--linkB);box-shadow:0 0 0 1px var(--linkB) inset} .btnF{display:flex;justify-content:center; margin:10px 0;width:calc(100% + 12px);left:-6px;right:-6px;position:relative} .btnF >*{margin:0 6px}
+
+
+.icon{flex-shrink:0;display:inline-flex} .icon::before{content:'';width:18px;height:18px;background-size:18px;background-repeat:no-repeat;background-position:center} .icon::after{content:'';padding:0 3px} .icon.dl::before, .drK .button.ln .icon.dl::before{background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fefefe' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'><polyline points='8 17 12 21 16 17'/><line x1='12' y1='12' x2='12' y2='21'/><path d='M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29'/></svg>")} .icon.demo::before{background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fefefe' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'><path d='M7.39999 6.32003L15.89 3.49003C19.7 2.22003 21.77 4.30003 20.51 8.11003L17.68 16.6C15.78 22.31 12.66 22.31 10.76 16.6L9.91999 14.08L7.39999 13.24C1.68999 11.34 1.68999 8.23003 7.39999 6.32003Z'/><path d='M10.11 13.6501L13.69 10.0601'/></svg>")} .button.ln .icon.dl::before{background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2308102b' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'><polyline points='8 17 12 21 16 17'/><line x1='12' y1='12' x2='12' y2='21'/><path d='M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29'/></svg>")} /* Lightbox image */ .zmImg.s{position:fixed;top:0;left:0;bottom:0;right:0;width:100%;margin:0;background:rgba(0,0,0,.75); display:flex;align-items:center;justify-content:center;z-index:999; -webkit-backdrop-filter:saturate(180%) blur(15px); backdrop-filter:saturate(180%) blur(15px)} .zmImg.s img{display:block;max-width:92%;max-height:92%;width:auto;margin:auto;border-radius:10px;box-shadow:0 5px 30px 0 rgba(0,0,0,.05)} .zmImg.s img.full{left:auto;right:auto;border-radius:10px;width:auto} .zmImg::after{content:'\2715';line-height:16px;font-size:14px;color:#fffdfc;background:var(--linkB); position:fixed;bottom:-20px;right:-20px; display:flex;align-items:center;justify-content:center;width:45px;height:45px;border-radius:50%; transition:var(--trans-1);opacity:0;visibility:hidden} .zmImg.s::after{bottom:20px;right:20px;opacity:1;visibility:visible;cursor:pointer}a{text-decoration:none;}
+
+.dlBox{max-width:640px;background:transparent;border-radius:10px;padding:12px;margin:1.7em 0; display:flex;align-items:center; font-size:18px;line-height:1.4em} 
+.dlBox .fT{flex-shrink:0;display:flex;align-items:center;justify-content:center; width:90px;height:160px; padding:0px; background:rgba(0,0,0,.1);border-radius:5px} 
+.dlBox .fT::before{content:attr(data-text);opacity:.7} .dlBox .fT img{width:90x;height:160px}
+.dlBox a{flex-shrink:0;margin:0;padding:10px;border-radius:8px;font-size:13px} .dlBox a::after{content:attr(aria-label)} 
+.dlBox .fN{flex-grow:1; width:calc(100% - 200px);padding:0 15px} 
+.dlBox .fN >*{display:block;font-weight:700;} 
+.dlBox .fS{line-height:16px;font-size:14px;font-weight:400;font-family:Garamond, serif;margin-top:10px;opacity:.8} 
+  .dlBox{font-size:18px;font-weight:700}
+  .dlBox .fT img{width:90x;height:160px}
+  .dlBox a{flex-shrink:unset;font-weight:400}
+  .dlBox .fN >*{display:block;} 
+  .dlBox .fS{font-weight:400}
+  .dlBox .fN{flex-grow:1;padding:0 15px}
+  .dlBox .fN .buttonInfo{display:inline-flex;margin-top:30px;position:relative}
+  .dlBox .fN .buttonInfo a{margin-right:10px}
+
+h1{font-size:1.9rem} h2{font-size:1.7rem} h3{font-size:1.5rem} h4{font-size:1.4rem} h5{font-size:1.3rem} h6{font-size:1.2rem}
+li{margin:13px 0;} body{padding:10px}
+
+
+
+
+
+
+
+.pf-title-sect-tab{
+  position: relative;
+  padding: 0 10px 0;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  /*animation: shining 0.1s alternate infinite;*/
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px hsl(333deg 100% 50%);
+  filter: 
+    drop-shadow(0px 2px 2px hsl(0deg 0% 0% / 0.5))
+    drop-shadow(0px 0px 4px hsl(333deg 100% 50% / 0.5))
+    drop-shadow(0px 0px 10px hsl(333deg 100% 50% / 0.5))
+    drop-shadow(0px 0px 50px hsl(333deg 100% 50% / 1));
+}
+
+.pf-sect-form-tabs .pf-sect-tab .pf-title-sect-tab{
+    text-align: center;
+    font-size: 22px;
+  }  
+
+
+
+
+
+
+/*TEXT SHADOW*/
+p.detail { 
+color:#fff;
+  text-shadow:
+    0 0 5px #25d7fb,
+    0 0 10px #25d7fb,
+    0 0 15px #25d7fb,
+    0 0 20px #25d7fb,
+    0 0 25px #25d7fb,
+    0 0 30px #25d7fb
+    ;
+font-weight:bold;
+font-family:'Feturo-w1E9w';
+font-size:20 
+}
+span.name {
+ color:#fff;
+  text-shadow:
+    0 0 5px #ff33cc,
+    0 0 10px #ff33cc,
+    0 0 15px #ff33cc,
+    0 0 20px #ff33cc,
+    0 0 25px #ff33cc,
+    0 0 30px #ff33cc
+    ;
+font-weight:bold;
+font-family:'Feturo-w1E9w';
+font-size:20 
+}
+
+span.ucapancolor {
+ color:#fff;
+  text-shadow:
+    0 0 5px #25d7fb,
+    0 0 10px #25d7fb,
+    0 0 15px #25d7fb,
+    0 0 20px #25d7fb,
+    0 0 25px #25d7fb,
+    0 0 30px #25d7fb
+    ;
+font-weight:bold;
+font-family:'Feturo-w1E9w';
+font-size:20 
+}
+
+
+
+/*NAVIGASI BAR*/
+.fContainer {
+	position: fixed;    
+    cursor: pointer;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 16px;
+    background-color: lightslategrey;
+}
+
+.wrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+font-size: 20px;
+padding: 12px 2px;
+width: 100%;
+height: 16px;
+border-radius: 16px;
+background-color: #000000;
+box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 1,5em;
+  padding: 1,5em;
+  text-transform: capitalize;
+}
+
+.firstname {
+  color: white;
+  font-weight: bold;
+  padding-left: 16px;
+}
+
+.lastname {
+  color: #ff33cc;
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+navigation>label {
+	padding-left: -16px;
+	}
+*/
+    
+
+.navigation>li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigation>li>a {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+  color: #ffffff;
+  text-shadow:
+    0 0 5px #ff33cc,
+    0 0 10px #ff33cc,
+    0 0 15px #ff33cc,
+    0 0 20px #ff33cc,
+    0 0 25px #ffffff,
+    0 0 30px #ffffff
+    ;
+  transition: all .3s ease-in-out
+}
+
+.navigation>li>img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation>li>img:hover {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  transition: all .3s ease-in-out
+}
+
+.active {
+  background-color: crimson;
+  color: white;
+}
+
+.active:hover{
+  color: white !important;
+}
+/*BATAS*/
+
+
+
+
+
+
+
+/*VISITOR*/
+ .iconVisit {
+  padding: 10px;
+  background: transparent;
+  
+  min-width: 50px;
+  text-align: center;
+  margin:10px 0;
+  padding:12px 15px;
+  outline:0;
+  border: 2px solid dodgerblue;
+  border-radius:8px;
+  line-height:20px; 
+  }
+
+
+/*DARK MODE*/
+.modedark {  
+    display:inline-flex;
+    align-items:center; 
+    margin:10px 0;
+    padding:2px 6px;
+    outline:0;
+    border:0; 
+    border-radius:3px;
+    box-shadow: 0 0 6px #25d7fb;
+    line-height:20px; 
+    color:#fff; 
+    background:#25d7fb; 
+    font-size:16px;
+    font-family:Garamond, serif; 
+    white-space:nowrap;
+    overflow:hidden;
+    max-width:320px} 
+  
+.modedark svg {  
+    width: 50px;  
+    height: 50px;  
+    vertical-align: -5px;  
+    background-repeat: no-repeat!important;  
+    content: ''  
+}  
+  
+.modedark svg path {  
+    fill: #fff  
+}  
+  
+.modedark .check:checked~.NavMenu {  
+    opacity: 1;  
+    visibility: visible;  
+    top: 45px;  
+    min-width: 200px;  
+    transition: all .3s ease;  
+    z-index: 2  
+}  
+  
+.iconmode {  
+    cursor: pointer;  
+    display: block;  
+    padding: 8px;  
+    background-position: center;  
+    transition: all .5s linear  
+}  
+  
+.iconmode:hover {  
+    border-radius: 100px;  
+    background: rgba(0, 0, 0, .2) radial-gradient(circle, transparent 2%, rgba(0, 0, 0, .2) 2%) center/15000%  
+}  
+  
+.check {  
+    display: none  
+}  
+  
+.modedark .iconmode .openmode {  
+    display: block  
+}  
+  
+.modedark .iconmode .closemode {  
+    display: none  
+}  
+  
+.modedark .check:checked~.iconmode .openmode {  
+    display: none  
+}  
+  
+.modedark .check:checked~.iconmode .closemode {  
+    display: block  
+}  
+  .nightmode{background:#15202B;color:rgba(255,255,255,.7)}  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*NAVBAR*/
+@media (max-width:991px){
+   .fContainer{
+       display: block;
+   }
